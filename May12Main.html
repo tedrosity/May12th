@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>May 12th</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body>
+        <div style="padding:16px;" ></div>
+        <a href="May12Landing.html">
+            <img alt="arrow" class="arrow" src="arrow.png"> </a>
+            </p>
+            <div style="padding:8px;" >
+            </div>
+            <p class="bodytext">
+                Finals are over. Class is over. Summer is finally here.
+            </p>
+            <div style="padding: 8px"></div>
+            <p class="bodytext">
+                UNT has been a hell of an experience so far.
+                Somehow, someway it managed to exceed everything I had planned of.
+                From Joe Greene, to Gateway, to the Retreat, I met so many different people
+                who impacted my life in so many different ways. I can't think of a better way
+                to end the year than this.
+            </p>
+            <div style="padding: 8px"></div>
+            <p class="bodytext">
+                Now I want to give something back to y'all before some of y'all graduate
+                or before we go home to run it back for the last time next year.
+                It's time to do my big one. Flip the 12 because we celebrating my 21.
+            </p>
+            <div style="padding: 8px"></div>
+            <p class="bodytext">
+                May 12th, you know where I live.
+            </p>
+            <div style="padding: 8px"></div>
+            <p class="bodytext">
+                -Teddy
+            </p>
+            <audio id="myAudio" controls loop>
+                <source src="AllTheParties.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        
+            <!-- JavaScript to play audio on mousemove -->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const audioElement = document.getElementById("myAudio");
+        
+                    // Play audio when the mouse moves over the document
+                    document.addEventListener("mousemove", function () {
+                        audioElement.play();
+                    });
+        
+                    // Pause audio when the mouse leaves the document
+                    document.addEventListener("mouseleave", function () {
+                        audioElement.pause();
+                        audioElement.currentTime = 0; // Rewind to the beginning
+                    });
+                });
+            </script>
+        </body>
+        </html>

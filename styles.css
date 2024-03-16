@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.arrow{
+    width: 2%;
+    padding-left: 50px;
+}
+
+.posttext{
+    display: inline;
+    color: white;
+    font-family: JetBrains Mono,monospace;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 2rem;
+    text-shadow: 0 0 10px #CE5A67, 0 0 20px #CE5A67, 0 0 30px #CE5A67, 0 0 40px #CE5A67; /* Add this line */
+}
+
+.bodytext{
+    padding: 0px;
+    color: #FCF5ED;
+    font-family: JetBrains Mono,monospace;
+    font-size: 12px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    line-height:1.5rem;
+    text-shadow: 0 0 10px #CE5A67, 0 0 20px #CE5A67, 0 0 30px #CE5A67, 0 0 40px #CE5A67; /* Add this line */
+}
+
+.headertext{
+    color: #fff;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-shadow: 0 0 10px #CE5A67, 0 0 20px #CE5A67, 0 0 30px #CE5A67, 0 0 40px #CE5A67; /* Add this line */
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-grid{
+    --gap:16px;
+    --num-cols:4;
+    --rows-height:300px;
+
+    box-sizing:border-box;
+    padding: var(--gap);
+
+    display:grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows:var(--row-height);
+    gap:var (--gap);
+}
+
+.image-grid > img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.image-grid-col-2{
+    grid-column: span2;
+}
+
+.imgage-grid-row-2{
+    grid-row:span2;
+}
+
+.dispo{
+    width: 65%;
+    height: 65%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.parent{
+    display:grid;
+}
+
+.centerimg{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clippyspot{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: 10%;
+    left: 85%;
+    transform: translate(-30%, -70%);
+}
+audio {
+    /* Your existing styles for the audio player */
+    width: 0px;
+    height: 0px;
+}
