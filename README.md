@@ -7,7 +7,7 @@ This project contains the web pages I created for a party titled "May 12th" whic
 - **Landing Page**: A welcoming page with a countdown timer to the event and a "Continue" button that redirects to the main page.
 - **Main Page**: Provides details about the event and includes an audio player that plays a track when the user moves the mouse over the page.
 
-## Technologies Used
+## Languages Used
 - HTML5
 - CSS3
 - JavaScript
