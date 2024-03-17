@@ -1,7 +1,7 @@
 # May12th 
 
 ## Overview
-This project contains the web pages a party titled "May 12th" showcasing a landing page and a main page with an embedded audio player.
+This project contains the web pages I created for a party titled "May 12th" which includes a landing page and a main page with an embedded audio player.
 
 ## Features
 - **Landing Page**: A welcoming page with a countdown timer to the event and a "Continue" button that redirects to the main page.
